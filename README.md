@@ -19,6 +19,14 @@ Predictive modelling pipeline designed to forecast complaint volumes and support
 
 The project demonstrates a complete, reproducible, and explainable machine learning workflow using a modular production-style architecture.
 
+> **Assessment Context:** This project was developed as part of a technical assessment requiring a reproducible forecasting pipeline, clear reasoning, modular code structure, and concise documentation.
+
+---
+
+## 💼 Why This Matters
+
+Accurate complaint forecasting helps organisations plan staffing, manage service levels, and anticipate operational pressure. This model provides early visibility into demand patterns, enabling proactive decision‑making rather than reactive responses — reducing risk, improving resource efficiency, and supporting better service outcomes.
+
 ---
 
 ## 🚀 Project Overview
@@ -94,8 +102,8 @@ complaints_forecasting/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/complaints-forecasting.git
-cd complaints-forecasting
+git clone https://github.com/MathaiSibu/complaints_forecasting.git
+cd complaints_forecasting
 ```
 
 ### Install Dependencies
@@ -103,6 +111,36 @@ cd complaints-forecasting
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## 📋 Requirements
+
+Ensure `requirements.txt` exists in the root of the repository. It should contain:
+
+```text
+lightgbm
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+```
+
+Install all dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+> Python **3.10+** is required. It is recommended to use a virtual environment:
+> ```bash
+> python -m venv venv
+> source venv/bin/activate        # macOS / Linux
+> venv\Scripts\activate           # Windows
+> pip install -r requirements.txt
+> ```
 
 ---
 
