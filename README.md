@@ -24,19 +24,22 @@ Easy debugging
 Replaceable components
 Production-style structure
 
-📁 Project Structure
+## 📂 Project Structure
+
+```text
 complaints_forecasting/
 │
-├── run.py
-├── Principle_Data_Scientist_Tech_Assessment.xlsx
+├── run.py                                          # Single entry point
+├── Principle_Data_Scientist_Tech_Assessment.xlsx   # Source data
 │
 └── src/
-    ├── load_data.py        # Data loading, cleaning, validation
-    ├── features.py         # Feature engineering & transformations
-    ├── model.py            # Model training & selection
-    ├── evaluate.py         # Metrics, plots, diagnostics
-    ├── forecast.py         # Future predictions
-    └── __pycache__/        # Auto-generated
+    ├── load_data.py    # Data loading, cleaning, validation
+    ├── features.py     # Feature engineering & transformations
+    ├── model.py        # Model training & selection
+    ├── evaluate.py     # Metrics, plots, diagnostics
+    ├── forecast.py     # Future predictions
+    └── __pycache__/    # Auto-generated
+```
     
 ⚙️ How to Run
 Install dependencies:
