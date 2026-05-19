@@ -19,7 +19,7 @@ Predictive modelling pipeline designed to forecast complaint volumes and support
 
 The project demonstrates a complete, reproducible, and explainable machine learning workflow using a modular production-style architecture.
 
-> **Assessment Context:** This project was developed as part of a technical assessment requiring a reproducible forecasting pipeline, clear reasoning, modular code structure, and concise documentation.
+> This project was developed as part of a technical assessment requiring a reproducible forecasting pipeline, clear reasoning, modular code structure, and concise documentation.
 
 ---
 
