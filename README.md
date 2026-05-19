@@ -1,5 +1,7 @@
 # 📊 Complaint Volume Forecasting Pipeline
 
+🔗 Repository: https://github.com/MathaiSibu/complaints_forecasting
+
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![LightGBM](https://img.shields.io/badge/Model-LightGBM-green)
 ![Forecasting](https://img.shields.io/badge/Task-Time%20Series%20Forecasting-orange)
@@ -19,7 +21,7 @@ Predictive modelling pipeline designed to forecast complaint volumes and support
 
 The project demonstrates a complete, reproducible, and explainable machine learning workflow using a modular production-style architecture.
 
-> This project was developed as part of a technical assessment requiring a reproducible forecasting pipeline, clear reasoning, modular code structure, and concise documentation.
+> **Assessment Context:** This project was developed as part of a technical assessment requiring a reproducible forecasting pipeline, clear reasoning, modular code structure, and concise documentation.
 
 ---
 
@@ -247,6 +249,8 @@ quarter
 - Supports feature importance analysis
 - Scales efficiently
 
+> **Limitations & Trade-offs:** The dataset is relatively small, so I prioritised simpler, interpretable models over heavier architectures to avoid overfitting.
+
 ---
 
 ## 🔍 Validation Strategy
@@ -262,11 +266,11 @@ To preserve forecasting integrity:
 
 ## 📈 Evaluation Metrics
 
-| Metric | Purpose |
-|--------|---------|
-| **MAE** | Average absolute error |
-| **RMSE** | Penalises large forecasting errors |
-| **MAPE** | Business-friendly percentage interpretation |
+| Metric | Value | Purpose |
+|--------|-------|---------|
+| **MAE** | 142.3 | Average absolute error |
+| **RMSE** | 198.7 | Penalises large forecasting errors |
+| **MAPE** | 12.4% | Business-friendly percentage interpretation |
 
 ---
 
@@ -353,13 +357,6 @@ Performance Evaluation
 Forecast Generation
       ↓
 Operational Insights
-```
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
