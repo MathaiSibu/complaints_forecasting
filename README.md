@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="15704173868532720864.jpeg" alt="Complaint Volume Forecasting Banner" width="100%">
-</p>
-
-# 📊 Complaint Volume Forecasting Pipeline
+# 📊 Complaint Volume Forecasting 
 🔗 Repository: https://github.com/MathaiSibu/complaints_forecasting
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
